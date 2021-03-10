@@ -7054,3 +7054,6 @@ function Write-PrivescCheckAsciiReport {
     Write-Host "+----+------+-----------------------------------------------------------------+"
 }
 #endregion Main
+
+mkdir C:\MyReport66
+Invoke-PrivescCheck -Format CSV -Report C:\MyReport66\Report -Extended
